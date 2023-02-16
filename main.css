@@ -275,3 +275,30 @@ ul {
 }
 
 /* title end */
+
+/*
+=============== 
+Modal
+===============
+*/
+
+.hero {
+    min-height: 100vh;
+    background: url('./pexels-ian-beckley.jpg') center/cover no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.banner {
+    background-color: var(--white);
+    padding: 4rem 0;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--shadow-2);
+    width: 90vw;
+    text-align: center;
+    max-width: var(--fixed-width);
+}
+
+.modal-overlay {
+    display: none;
+}
